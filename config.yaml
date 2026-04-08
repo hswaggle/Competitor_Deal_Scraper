@@ -4,11 +4,16 @@
 
 # Companies to monitor for acquisitions
 acquirers:
-  - Salesforce
-  - Microsoft
-  - Google
-  - Apple
-  - Amazon
+  - Constellation
+  - Banyan
+  - Beacon
+  - Volaris
+  - Harris
+  - Jonas
+  - Vela
+  - Perseus Group
+  - topicus
+  - andromeda
   # Add or remove companies freely — one per line
 
 # How many days back to search for news each run.
@@ -24,4 +29,4 @@ email_subject: "🔎 Software Acquisition Tracker Report"
 
 # Optional: comma-separated additional recipients (leave empty to send only to yourself)
 # extra_recipients: "colleague@example.com, boss@example.com"
-extra_recipients: ""
+extra_recipients: "harrison.waddell@tagsoftwaregroup.com"
