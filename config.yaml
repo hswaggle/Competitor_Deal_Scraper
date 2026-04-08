@@ -1,0 +1,27 @@
+# ─────────────────────────────────────────────
+#  Acquisition Tracker — Configuration
+# ─────────────────────────────────────────────
+
+# Companies to monitor for acquisitions
+acquirers:
+  - Salesforce
+  - Microsoft
+  - Google
+  - Apple
+  - Amazon
+  # Add or remove companies freely — one per line
+
+# How many days back to search for news each run.
+# Set this to match (or slightly exceed) your cron cadence
+# so you don't miss deals between runs.
+lookback_days: 16
+
+# Output format: "xlsx" or "csv"
+output_format: xlsx
+
+# Email subject line
+email_subject: "🔎 Software Acquisition Tracker Report"
+
+# Optional: comma-separated additional recipients (leave empty to send only to yourself)
+# extra_recipients: "colleague@example.com, boss@example.com"
+extra_recipients: ""
